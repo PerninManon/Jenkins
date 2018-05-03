@@ -4,14 +4,17 @@
   "parameters": {
     "prefix": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "defaultValue":"sncfjenkins"
     },
     "sqlserverAdminLogin": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "defaultValue":"sncfadmin"
     },
     "sqlserverAdminLoginPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "defaultValue":"sncf2018!"
     },
     "dbCollation": {
       "type": "string",
